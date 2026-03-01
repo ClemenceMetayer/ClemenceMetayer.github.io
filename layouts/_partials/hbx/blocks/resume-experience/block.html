@@ -238,7 +238,7 @@
           
           {{/* Description */}}
           {{ with index $item "summary" }}
-          <div class="prose dark:prose-invert max-w-none text-gray-600 dark:text-gray-400 leading-relaxed">
+          <div class="prose dark:prose-invert max-w-none text-gray-600 dark:text-gray-400 leading-relaxed [&_ul]:list-none [&_ul]:pl-0 [&_li]:ml-0">
             {{ . | emojify | $page.RenderString }}
           </div>
           {{ end }}

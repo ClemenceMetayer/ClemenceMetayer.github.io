@@ -52,41 +52,47 @@ news:
 experience:
   - role: PhD student in applied mathematics in cancer science
     org: Curie Institute, INSERM, Inria, Paris, France
-    supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard
+    supervision: Dr. Annabelle Ballesta, Dr. Anne-Laure Huber, Dr. Samuel Bernard
     start: 2022-10-01
     summary: |
-      - → Development and study of model learning methods for automatically discovering EDOs systems from data
-      - → Estimation of EDOs model parameters
-      - → Development of a pipeline for rhythmic analysis of omics data (modeling, statistics, differential analysis, enrichment)
-      - → Acquisition of knowledge about cancer, the circadian clock, the immune system, and DNA damage repair
-      - → Introduction to experimental procedures (cell culture, synchronization, siRNA transfections, and cell collection)
-      - → Writing scientific articles (literature review, methodology paper, application paper)
-      - → Scientific monitoring
+      → Development and study of model learning methods for automatically discovering EDOs systems from data
+      → Estimation of EDOs model parameters
+      → Development of a pipeline for rhythmic analysis of omics data (modeling, statistics, differential analysis, enrichment)
+      → Acquisition of knowledge about cancer, the circadian clock, the immune system, and DNA damage repair
+      → Introduction to experimental procedures (cell culture, synchronization, siRNA transfections, and cell collection)
+      → Writing scientific articles (literature review, methodology paper, application paper)
+      → Scientific monitoring
 
   - role: Mathematics tutor (MP, MPSI, PCSI preparatory classes)
-    org: Ozanam Center, Lyon
-    supervision: Not specified
+    org: Ozanam Center, Lyon, France
     start: 2022-03-01
     end: 2022-09-30
     summary: |
-      Group and individual mentoring sessions, problem-solving support,
-      and clarification of advanced mathematics concepts.
+      → Hosting group and individual mentoring sessions
+      → Answering students’ questions and clarifying complex points in the course
+
   - role: Research Intern in Biostatistics
-    org: Inria SISTM, Bordeaux
-    supervision: Not specified
+    org: Inria SISTM, Bordeaux, France
+    supervision: Dr. Marta Avalos Fernandez
     start: 2021-04-01
     end: 2021-10-31
     summary: |
-      Systematic review and meta-analysis of chronic respiratory disease studies,
-      statistical analyses/visualization, and manuscript writing.
+      → Systematic literature review and meta-analysis of data from several studies
+      → Acquisition of knowledge about chronic respiratory diseases, the respiratory microbiota, and the different types of diversity within this microbiota
+      → Writing a research article presenting the results
+      → Scientific monitoring
+
   - role: Research Intern in Epidemiology
-    org: Inria DRACULA, Lyon
-    supervision: Not specified
+    org: Inria DRACULA, Lyon, France
+    supervision: Dr. Mostafa Adimy
     start: 2020-05-01
     end: 2020-06-30
     summary: |
-      ODE modeling of secondary dengue infection dynamics, qualitative analysis
-      (R0, equilibria, stability), and research article writing.
+      → Modeling of secondary dengue virus infection using a system of EDOs
+      → Mathematical analysis of this system (reproduction rate R0, equilibria, stability of equilibria)
+      → Acquisition of knowledge about the dengue virus and the phenomenon of antibody-dependent enhancement of infection
+      → Writing a research article presenting the results
+      → Scientific monitoring
 
 skills:
   - name: Programming & Modeling
