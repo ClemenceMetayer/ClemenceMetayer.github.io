@@ -43,10 +43,6 @@ sections:
       subtitle: ''
       text: |-
         I am a PhD student in applied mathematics for cancer biology, working at Curie Institute, INSERM, and Inria (Paris).
-
-        My research develops data-driven methods to discover dynamical systems from experimental data, with a focus on circadian analysis of omics data and sparse differential model inference.
-
-        Applications include circadian rhythm, immune-system regulation, and optimization of cancer treatments. I am always happy to discuss research collaborations.
     design:
       columns: '1'
   - block: collection
