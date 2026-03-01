@@ -7,29 +7,18 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: markdown
+  - block: resume-experience
     content:
-      title: Academic Background
-      subtitle: ''
-      text: |-
-        ### PhD in Applied Mathematics for Cancer Science
-        **Curie Institute, INSERM, Inria (Paris, France)**  
-        *Oct 2022 – Present*
-
-        Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.  
-        Focus: ODE system discovery, parameter estimation, rhythmic omics analysis, and applications to circadian-immune interactions in oncology.
-
-        ### Master's degree in Applied Mathematics and Statistics
-        **Claude Bernard Lyon 1 University (France)**  
-        *Sep 2019 – Jun 2021*
-
-        ### Bachelor's degree in General Mathematics and Applications
-        **Claude Bernard Lyon 1 University (France)**  
-        *Sep 2016 – Jun 2019*
-
-        ### First Year Common to Health Studies
-        **Angers University (France)**  
-        *Sep 2014 – Jun 2016*
+      title: Academic
+      username: me_education_academic
+      show_education: false
     design:
-      columns: '1'
+      date_format: 'January 2006'
+  - block: resume-experience
+    content:
+      title: Other training courses
+      username: me_education_other_training
+      show_education: false
+    design:
+      date_format: 'January 2006'
 ---

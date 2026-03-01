@@ -1,0 +1,23 @@
+schema: hugoblox/author/v1
+slug: me_education_academic
+is_owner: false
+name:
+  display: Clémence Métayer
+
+experience:
+  - role: PhD in Applied Mathematics for Cancer Science
+    org: Curie Institute, INSERM, Inria (Paris, France)
+    start: 2022-10-01
+    summary: |
+      Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
+      Focus: ODE system discovery, parameter estimation, rhythmic omics analysis, and applications to circadian-immune interactions in oncology.
+
+  - role: Master's degree in Applied Mathematics and Statistics
+    org: Claude Bernard Lyon 1 University (France)
+    start: 2019-09-01
+    end: 2021-06-30
+
+  - role: Bachelor's degree in General Mathematics and Applications
+    org: Claude Bernard Lyon 1 University (France)
+    start: 2016-09-01
+    end: 2019-06-30

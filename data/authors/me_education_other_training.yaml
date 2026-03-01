@@ -1,0 +1,11 @@
+schema: hugoblox/author/v1
+slug: me_education_other_training
+is_owner: false
+name:
+  display: Clémence Métayer
+
+experience:
+  - role: First Year Common to Health Studies
+    org: Angers University (France)
+    start: 2014-09-01
+    end: 2016-06-30

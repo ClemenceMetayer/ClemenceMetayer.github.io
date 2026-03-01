@@ -23,10 +23,24 @@
 {{ $profile := partial "functions/get_author_profile" $username }}
 
 {{ $is_education_first := partial "functions/coerce_bool" (dict "value" (index $design "is_education_first") "default" false) }}
+{{ $show_experience := partial "functions/coerce_bool" (dict "value" (index $content "show_experience") "default" true) }}
+{{ $show_education := partial "functions/coerce_bool" (dict "value" (index $content "show_education") "default" true) }}
 {{ $date_format := "Jan 2006" }}
 {{ $date_format_raw := index $design "date_format" }}
 {{ if eq (printf "%T" $date_format_raw) "string" }}
   {{ $date_format = strings.TrimSpace $date_format_raw | default "Jan 2006" }}
+{{ end }}
+
+{{ $education_key := "education" }}
+{{ $education_key_raw := index $content "education_key" }}
+{{ if eq (printf "%T" $education_key_raw) "string" }}
+  {{ $education_key = strings.TrimSpace $education_key_raw | default "education" }}
+{{ end }}
+
+{{ $education_title := i18n "education" | default "Education" }}
+{{ $education_title_raw := index $content "education_title" }}
+{{ if eq (printf "%T" $education_title_raw) "string" }}
+  {{ $education_title = strings.TrimSpace $education_title_raw | default $education_title }}
 {{ end }}
 
 {{ $experience_raw := or $profile.experience $profile.work }}
@@ -100,6 +114,13 @@
 {{ end }}
 
 {{ $education_raw := $profile.education }}
+{{ if ne $education_key "education" }}
+  {{ if eq $education_key "education_academic" }}
+    {{ $education_raw = $profile.education_academic }}
+  {{ else if eq $education_key "education_other_training_courses" }}
+    {{ $education_raw = $profile.education_other_training_courses }}
+  {{ end }}
+{{ end }}
 {{ $education_iter := slice }}
 {{ if reflect.IsSlice $education_raw }}
   {{ $education_iter = $education_raw }}
@@ -149,7 +170,7 @@
 
 <div class="flex flex-col gap-16 {{ if $is_education_first }}flex-col-reverse{{end}}">
 
-{{ if gt (len $experience) 0 }}
+{{ if and $show_experience (gt (len $experience) 0) }}
 <div class="w-full">
   {{ $experience_title := i18n "experience" | default "Experience" }}
   {{ with index $content "title" }}
@@ -293,9 +314,9 @@
 </div>
 {{ end }}
 
-{{ if gt (len $education) 0 }}
+{{ if and $show_education (gt (len $education) 0) }}
 <div class="w-full">
-  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "education" | default "Education" }}</h2>
+  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ $education_title }}</h2>
   
   {{/* Timeline container */}}
   <div class="relative">

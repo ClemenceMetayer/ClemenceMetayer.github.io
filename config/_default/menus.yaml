@@ -10,15 +10,15 @@ main:
   - name: Professional Experience
     url: experience/
     weight: 11
-  - name: Publications
-    url: publications/
-    weight: 12
-  - name: Conferences
-    url: events/
-    weight: 13
   - name: Education
     url: education/
-    weight: 25
+    weight: 12
+  - name: Publications
+    url: publications/
+    weight: 13
+  - name: Conferences
+    url: events/
+    weight: 14
   - name: Projects
     url: projects/
     weight: 30
