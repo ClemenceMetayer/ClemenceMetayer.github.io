@@ -4,7 +4,7 @@ cms_exclude: true
 type: landing
 
 design:
-  spacing: '4rem'
+  spacing: '2rem'
 
 sections:
   - block: markdown

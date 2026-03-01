@@ -2,7 +2,9 @@
 
 <div class="max-w-prose mx-auto flex justify-center">
   <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    {{ if ne .Section "publications" }}
     <h1 class="text-3xl">{{ .Title }}</h1>
+    {{ end }}
     {{ .Content }}
   </article>
 </div>
