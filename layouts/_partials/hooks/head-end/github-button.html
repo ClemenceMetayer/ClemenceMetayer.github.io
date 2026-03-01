@@ -10,3 +10,48 @@
 		document.head.appendChild(emptyIcon);
 	})();
 </script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var newsItems = {{ with site.Data.authors.me.news }}{{ jsonify . }}{{ else }}[]{{ end }};
+		if (!Array.isArray(newsItems) || newsItems.length === 0) return;
+
+		var section = document.querySelector('#section-resume-biography-3');
+		if (!section) return;
+
+		var interestsHeading = Array.from(section.querySelectorAll('h3, h2')).find(function (node) {
+			return (node.textContent || '').trim().toLowerCase() === 'interests';
+		});
+		if (!interestsHeading) return;
+
+		var interestsBlock = interestsHeading.closest('div');
+		if (!interestsBlock || !interestsBlock.parentElement) return;
+
+		if (section.querySelector('[data-custom-news="true"]')) return;
+
+		var newsBlock = document.createElement('div');
+		newsBlock.className = 'mt-12';
+		newsBlock.setAttribute('data-custom-news', 'true');
+
+		var titleWrap = document.createElement('div');
+		titleWrap.className = 'flex items-center gap-4 mb-6';
+
+		var title = document.createElement('h3');
+		title.className = 'text-xl font-bold text-gray-900 dark:text-white tracking-tight';
+		title.textContent = 'News';
+		titleWrap.appendChild(title);
+
+		var list = document.createElement('ul');
+		list.className = 'list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200 text-base sm:text-lg';
+
+		newsItems.forEach(function (item) {
+			var li = document.createElement('li');
+			li.textContent = item;
+			list.appendChild(li);
+		});
+
+		newsBlock.appendChild(titleWrap);
+		newsBlock.appendChild(list);
+		interestsBlock.parentElement.insertBefore(newsBlock, interestsBlock.nextSibling);
+	});
+</script>
