@@ -42,14 +42,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 Research Overview'
-      subtitle: ''
-      text: |-
-        I am a PhD student in applied mathematics for cancer biology, working at Curie Institute, INSERM, and Inria (Paris).
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
@@ -61,23 +53,4 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: All Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Conferences & Seminars
-      filters:
-        folders:
-          - events
-    design:
-      view: card
 ---
