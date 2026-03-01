@@ -21,7 +21,6 @@ sections:
         url: uploads/CV_Clemence_Metayer_ENG.pdf
       headings:
         about: ''
-        education: ''
         interests: ''
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
