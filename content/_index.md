@@ -15,6 +15,10 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV (ENG)
+        url: uploads/CV_Clemence_Metayer_ENG.pdf
       headings:
         about: ''
         education: ''
@@ -33,16 +37,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-        {{< button url="/uploads/CV_Clemence_Metayer_ENG.pdf" icon="document-arrow-down" >}}Download CV (ENG){{< /button >}}
-
-        {{< button url="/uploads/resume.pdf" style="secondary" icon="document-arrow-down" >}}Download CV (FR){{< /button >}}
-    design:
-      columns: '1'
   - block: resume-experience
     content:
       username: me
