@@ -13,9 +13,9 @@ status:
   icon: "🎓"
 role: 4th year PhD Student in Applied Mathematics for Cancer Science
 bio: |
-  I am a PhD student in the Cancer Systems Pharmacology team of the U1331 Computational Oncoly research unit at Institut Curie, funded by Inserm, Inria, and Institut Curie.
-  As a PhD student in applied mathematics for cancer biology, I develop and study model learning methods for discovering and identifying dynamic systems from experimental data.
-  My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the circadian rhythm, the immune system, and the optimization of cancer treatments.
+  I am a **PhD student in the Cancer Systems Pharmacology team of the U1331 Computational Oncoly research unit at Institut Curie**, funded by Inserm, Inria, and Institut Curie.
+  As a PhD student in applied mathematics for cancer biology, I develop and study **model learning methods** for discovering and identifying dynamic systems from experimental data.
+  My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the **circadian clock, the immune system, and the optimization of cancer treatments**.
 
 affiliations:
   - name: Curie Institute
