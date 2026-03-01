@@ -44,32 +44,6 @@ interests:
   - Mathematical oncology
   - Bayesian modeling
 
-education:
-  - degree: PhD in Applied Mathematics for Cancer Science
-    institution: Curie Institute, INSERM, Inria (Paris, France)
-    start: 2022-10-01
-    end: "Now"
-    summary: |
-      Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
-      Focus: ODE system discovery, parameter estimation, rhythmic omics analysis,
-      and applications to circadian-immune interactions in oncology.
-    button:
-      text: Download CV
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: Master's degree in Applied Mathematics and Statistics
-    institution: Claude Bernard Lyon 1 University (France)
-    start: 2019-09-01
-    end: 2021-06-30
-  - degree: Bachelor's degree in General Mathematics and Applications
-    institution: Claude Bernard Lyon 1 University (France)
-    start: 2016-09-01
-    end: 2019-06-30
-  - degree: First Year Common to Health Studies
-    institution: Angers University (France)
-    start: 2014-09-01
-    end: 2016-06-30
-
 experience:
   - role: PhD student in applied mathematics in cancer science
     org: Curie Institute, INSERM, Inria
