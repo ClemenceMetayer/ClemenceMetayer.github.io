@@ -98,7 +98,6 @@ skills:
   - name: Programming
     items:
       - label: Python
-        description: NumPy, SciPy, Pandas, Matplotlib, Seaborn, scikit-learn, PyTorch, JAX, SymPy, Statsmodels, Shiny for Python
       - label: R
       - label: MATLAB
   - name: Visualization & Illustrations
@@ -135,6 +134,4 @@ languages:
 awards:
   - title: Society for Mathematical Biology Travel Grant
     awarder: Workshop on Mathematical Perspectives on Immunobiology (Blagoevgrad)
-    date: "2023-07-01"
-    summary: Travel support award for conference participation and poster presentation.
-    icon: hero/trophy
+    date: "2023-07"
