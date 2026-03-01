@@ -11,13 +11,9 @@ name:
 postnominals: []
 status:
   icon: "🎓"
-role: PhD Candidate in Applied Mathematics for Cancer Science
+role: 4th year PhD Student in Applied Mathematics for Cancer Science
 bio: |
-  As a PhD student in applied mathematics for cancer biology, I develop and study
-  model-learning methods for discovering and identifying dynamical systems from
-  experimental data. My work focuses on circadian analysis of omics data and
-  sparse differential-model inference, with applications to the circadian rhythm,
-  the immune system, and optimization of cancer treatments.
+  As a PhD student in applied mathematics for cancer biology, I develop and study model learning methods for discovering and identifying dynamic systems from experimental data. My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the circadian rhythm, the immune system, and the optimization of cancer treatments.
 
 affiliations:
   - name: Curie Institute
@@ -32,7 +28,11 @@ links:
     url: mailto:clemence.metayer@curie.fr
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/darwiin
+    url: https://github.com/ClemenceMetayer
+  - icon: brands/orcid
+    url: https://orcid.org/my-orcid?orcid=0000-0002-8708-140X
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=azmqwlMAAAAJ&hl=fr
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/cl%C3%A9mence-m%C3%A9tayer-84a3b89b/
 
@@ -46,6 +46,7 @@ education:
   - degree: PhD in Applied Mathematics for Cancer Science
     institution: Curie Institute, INSERM, Inria (Paris, France)
     start: 2022-10-01
+    end: "Now"
     summary: |
       Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
       Focus: ODE system discovery, parameter estimation, rhythmic omics analysis,

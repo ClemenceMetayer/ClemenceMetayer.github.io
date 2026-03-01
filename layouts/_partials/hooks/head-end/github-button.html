@@ -1,1 +1,12 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>
+	(function () {
+		document.querySelectorAll('link[rel*="icon"], link[rel="apple-touch-icon"], link[rel="mask-icon"]').forEach(function (node) {
+			node.remove();
+		});
+		var emptyIcon = document.createElement('link');
+		emptyIcon.setAttribute('rel', 'icon');
+		emptyIcon.setAttribute('href', 'data:,');
+		document.head.appendChild(emptyIcon);
+	})();
+</script>

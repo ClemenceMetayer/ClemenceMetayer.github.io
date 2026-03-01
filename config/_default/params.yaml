@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "4th year PhD Student | Applied Mathematics in Cancer Science"
     # Site meta description for search engines and social sharing
-    description: "PhD candidate in Applied Mathematics for Cancer Science at Curie Institute, INSERM, and Inria, working on data-driven discovery of dynamical systems for circadian and oncology applications."
+    description: "4th year PhD Student in Applied Mathematics for Cancer Science at Curie Institute, INSERM, and Inria, working on data-driven discovery of dynamical systems for circadian and oncology applications."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""              # Twitter/X handle for Twitter Cards (without @)
