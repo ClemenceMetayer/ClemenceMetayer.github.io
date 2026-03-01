@@ -6,7 +6,12 @@ event_name: Society for Mathematical Biology Annual Meeting 2026
 event_url: https://www.smb.org/
 
 location: Graz, Austria
-address: Graz, Austria
+address:
+  street: ""
+  city: "Graz"
+  region: ""
+  postcode: ""
+  country: "Austria"
 
 summary: Invited mini-symposium talk on learning dynamical circadian–immune interaction models to optimize lung cancer treatments.
 abstract: |

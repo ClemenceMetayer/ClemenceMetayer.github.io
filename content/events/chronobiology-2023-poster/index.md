@@ -5,7 +5,12 @@ date: '2023-10-01T10:00:00Z'
 event_name: 48th Congress of the Francophone Society of Chronobiology
 
 location: Paris, France
-address: Paris, France
+address:
+  street: ""
+  city: "Paris"
+  region: ""
+  postcode: ""
+  country: "France"
 
 summary: Poster presentation on circadian–immune dynamical interactions with application to lung cancer.
 abstract: |

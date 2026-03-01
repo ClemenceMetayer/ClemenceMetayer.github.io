@@ -5,7 +5,12 @@ date: '2023-09-01T10:00:00Z'
 event_name: Workshop on Mathematical Perspectives on Immunobiology
 
 location: Blagoevgrad, Bulgaria
-address: Blagoevgrad, Bulgaria
+address:
+  street: ""
+  city: "Blagoevgrad"
+  region: ""
+  postcode: ""
+  country: "Bulgaria"
 
 summary: Poster presentation on mathematical modeling of NLRP3-circadian interactions in lung cancer.
 abstract: |

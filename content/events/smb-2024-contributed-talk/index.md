@@ -6,7 +6,12 @@ event_name: Society for Mathematical Biology Annual Meeting 2024
 event_url: https://www.smb.org/
 
 location: Seoul, South Korea
-address: Seoul, South Korea
+address:
+  street: ""
+  city: "Seoul"
+  region: ""
+  postcode: ""
+  country: "South Korea"
 
 summary: Contributed talk on circadian–immune dynamical modeling and implications for lung cancer treatment optimization.
 abstract: |
