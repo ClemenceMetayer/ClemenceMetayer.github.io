@@ -43,6 +43,15 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
+      title: '📰 News'
+      subtitle: ''
+      text: |-
+        - **Latest paper:** [Data-driven discovery of digital twins in biomedical research](/publication/journal-article/), published in *Briefings in Bioinformatics* (2026).
+        - **Upcoming conference:** Society for Mathematical Biology Annual Meeting 2026 ([invited talk](/event/smb-2026-invited-talk/)), Graz, Austria.
+    design:
+      columns: '1'
+  - block: markdown
+    content:
       title: '📚 Research Overview'
       subtitle: ''
       text: |-
