@@ -2,7 +2,7 @@
 title: "Modeling the Relationship Between Antibody-Dependent Enhancement and Disease Severity in Secondary Dengue Infection"
 authors:
 - me
-- Fernando de A. Camargo
+- Felipe de A. Camargo
 - Mostafa Adimy
 - Luis Esteva
 - C.P. Ferreira
@@ -19,6 +19,7 @@ publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name.
 publication: "*Bulletin of Mathematical Biology, 83*(8), 85"
 publication_short: "Bull. Math. Biol."
+url_journal: "https://link.springer.com/article/10.1007/s11538-021-00919-y"
 
 abstract: We develop and analyze an ODE model for secondary dengue infection, investigating how antibody-dependent enhancement relates to disease severity. The study combines mechanistic modeling with qualitative analysis of equilibria and stability.
 

@@ -28,6 +28,7 @@ publication_types: ['article-journal']
 # Publication name and optional abbreviated publication name.
 publication: In *Respiratory Research, 23*(1), 214
 publication_short: In *Respir. Res.*
+url_journal: "https://link.springer.com/article/10.1186/s12931-022-02132-4"
 
 abstract: This systematic review and meta-analysis investigates respiratory microbiota alpha-diversity across chronic lung diseases. It synthesizes available evidence and highlights methodological and biological factors influencing diversity patterns.
 

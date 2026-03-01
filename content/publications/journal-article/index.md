@@ -3,7 +3,7 @@ title: "Data-driven discovery of digital twins in biomedical research"
 authors:
 - me
 - Annabelle Ballesta
-- Julia Martinelli
+- Julien Martinelli
 date: "2026-01-10T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
@@ -17,6 +17,7 @@ publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name.
 publication: "*Briefings in Bioinformatics, 27*(1), bbaf722"
 publication_short: "Brief. Bioinform."
+url_journal: "https://academic.oup.com/bib/article/27/1/bbaf722/8471778"
 
 abstract: We present a data-driven framework for discovering mechanistic digital twins in biomedical research. The approach combines model discovery and inference for dynamical systems from experimental data to improve interpretability and translational value in biology and medicine.
 

@@ -19,7 +19,6 @@ sections:
   - block: markdown
     content:
       title: Other training courses
-      subtitle: ''
       text: |-
         - **Machine Learning Specialization** — 2025, Stanford University & DeepLearning.AI
         - **International Course on Molecular and Mechanical Oscillations** — 2025, Curie Institute

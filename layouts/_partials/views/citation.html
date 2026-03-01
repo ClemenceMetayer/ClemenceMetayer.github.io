@@ -1,0 +1,53 @@
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $style := site.Params.hugoblox.content.citations.style | default "apa" }}
+{{ $title_link := $item.Params.url_journal | default $item.RelPermalink }}
+{{ $title_target := "" }}
+{{ if in (slice "http://" "https://") (substr $title_link 0 8 | default "") }}
+  {{ $title_target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $authors_raw := partial "page_metadata_authors" $item }}
+{{ $authors_html := replace $authors_raw "Clémence Métayer" "<strong>Clémence Métayer</strong>" }}
+
+{{ $built_links := partial "functions/build_links" (dict "page" $item "is_list" 1) }}
+{{ $cite_link := dict }}
+{{ range $built_links }}
+  {{ if and (eq .type "bibtex") (in .contexts "list") }}
+    {{ $cite_link = . }}
+  {{ end }}
+{{ end }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{ if eq $style "apa" }}
+  <span class="article-metadata li-cite-author">{{ $authors_html | safeHTML }}</span>
+  ({{- $year -}}).
+  <a href="{{ $title_link }}" class="underline" {{ $title_target | safeHTMLAttr }}>{{ $item.Title }}</a>.
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}}.
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}}.
+  {{ end }}
+  {{ else }}
+  <span class="article-metadata li-cite-author">{{ $authors_html | safeHTML }}.</span>
+  <a href="{{ $title_link }}" {{ $title_target | safeHTMLAttr }}>{{ $item.Title }}</a>.
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}},
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}},
+  {{ end }}
+  {{- $year -}}.
+  {{ end }}
+
+  {{ if $cite_link }}
+  <div class="flex flex-wrap space-x-3">
+    <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="{{ $cite_link.url | relURL }}">
+      {{ partial "functions/get_icon" (dict "name" ($cite_link.icon | default "hero/document-duplicate") "attributes" "style=\"height: 1em\" class='inline-block'") }}
+      <span>{{ $cite_link.label | default ((i18n "btn_cite") | default "Cite") }}</span>
+    </button>
+  </div>
+  {{ end }}
+</div>
