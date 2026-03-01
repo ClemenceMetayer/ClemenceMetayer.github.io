@@ -21,10 +21,10 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "4th year PhD Student | Applied Mathematics in Cancer Science"
     # Site meta description for search engines and social sharing
-    description: "I am in my fourth year of a PhD in Applied Mathematics in Cancer Science at the Curie Institute in Paris, France."
+    description: "PhD candidate in Applied Mathematics for Cancer Science at Curie Institute, INSERM, and Inria, working on data-driven discovery of dynamical systems for circadian and oncology applications."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -129,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "4th year PhD Student | Applied Mathematics in Cancer Science"
+    title: "Clémence Métayer | Applied Mathematics in Cancer Science"
     # For local_business identity type only
     location:
       address:

@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Research projects developed during my PhD and research internships in mathematical biology and biostatistics.
       filters:
         folders:
           - projects

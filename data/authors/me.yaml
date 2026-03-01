@@ -2,115 +2,135 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Clémence Métayer
+  given: Clémence
+  family: Métayer
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  pronouns: she/her
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🎓"
+role: PhD Candidate in Applied Mathematics for Cancer Science
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  As a PhD student in applied mathematics for cancer biology, I develop and study
+  model-learning methods for discovering and identifying dynamical systems from
+  experimental data. My work focuses on circadian analysis of omics data and
+  sparse differential-model inference, with applications to the circadian rhythm,
+  the immune system, and optimization of cancer treatments.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Curie Institute
+    url: https://institut-curie.org/
+  - name: INSERM
+    url: https://www.inserm.fr/
+  - name: Inria
+    url: https://www.inria.fr/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:clemence.metayer@curie.fr
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/darwiin
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/cl%C3%A9mence-m%C3%A9tayer-84a3b89b/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Data-driven discovery of dynamical systems
+  - Circadian biology and chronotherapy
+  - Mathematical oncology
+  - Statistical and Bayesian modeling
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in Applied Mathematics for Cancer Science
+    institution: Curie Institute, INSERM, Inria (Paris, France)
+    start: 2022-10-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
+      Focus: ODE system discovery, parameter estimation, rhythmic omics analysis,
+      and applications to circadian-immune interactions in oncology.
     button:
-      text: Download dissertation
+      text: Download CV
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: Master's degree in Applied Mathematics and Statistics
+    institution: Claude Bernard Lyon 1 University (France)
+    start: 2019-09-01
+    end: 2021-06-30
+  - degree: Bachelor's degree in General Mathematics and Applications
+    institution: Claude Bernard Lyon 1 University (France)
+    start: 2016-09-01
+    end: 2019-06-30
+  - degree: First Year Common to Health Studies
+    institution: Angers University (France)
+    start: 2014-09-01
+    end: 2016-06-30
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: PhD student in applied mathematics in cancer science
+    org: Curie Institute, INSERM, Inria
+    start: 2022-10-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Development and analysis of model-learning methods for automatic ODE discovery,
+      rhythmic omics data analysis pipelines, and cancer chronotherapy applications.
+  - role: Mathematics tutor (MP, MPSI, PCSI preparatory classes)
+    org: Ozanam Center, Lyon
+    start: 2022-03-01
+    end: 2022-09-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Group and individual mentoring sessions, problem-solving support,
+      and clarification of advanced mathematics concepts.
+  - role: Research Intern in Biostatistics
+    org: Inria SISTM, Bordeaux
+    start: 2021-04-01
+    end: 2021-10-31
+    summary: |
+      Systematic review and meta-analysis of chronic respiratory disease studies,
+      statistical analyses/visualization, and manuscript writing.
+  - role: Research Intern in Epidemiology
+    org: Inria DRACULA, Lyon
+    start: 2020-05-01
+    end: 2020-06-30
+    summary: |
+      ODE modeling of secondary dengue infection dynamics, qualitative analysis
+      (R0, equilibria, stability), and research article writing.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & Modeling
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
+      - label: R
+        level: 3
+      - label: MATLAB
+        level: 3
+      - label: ODE Modeling & Inference
         level: 5
-      - label: Cloud Computing
+      - label: Bayesian Modeling
         level: 4
-  - name: Research & Communication
+  - name: Scientific Tools & Communication
     items:
-      - label: Academic Writing
+      - label: Scientific Writing (LaTeX, Word)
         level: 5
-      - label: Conference Presentations
+      - label: Data Visualization
         level: 4
-      - label: Grant Proposals
+      - label: Git / GitHub / GitLab
+        level: 4
+      - label: Conference Presentations
         level: 4
 
 languages:
-  - name: English
+  - name: French
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
-    label: Fluent
+    label: Professional
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Society for Mathematical Biology Travel Grant
+    awarder: Workshop on Mathematical Perspectives on Immunobiology (Blagoevgrad)
+    date: "2023-07-01"
+    summary: Travel support award for conference participation and poster presentation.
     icon: hero/trophy

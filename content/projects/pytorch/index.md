@@ -1,15 +1,17 @@
 ---
-title: PyTorch
-date: 2023-10-26
+title: Data-Driven ODE System Discovery
+date: 2025-06-01
 links:
   - type: site
-    url: https://github.com/pytorch/pytorch
+    url: https://www.inria.fr/
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Dynamical Systems
+  - ODE Inference
+  - Sparse Modeling
+  - Mathematical Oncology
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+Development and study of model-learning approaches to automatically discover parsimonious
+ODE systems from experimental data in multi-condition settings.
 
 <!--more-->

@@ -1,15 +1,17 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: Rhythmic Omics Analysis Pipeline
+date: 2025-01-15
 links:
   - type: site
-    url: https://github.com/pandas-dev/pandas
+    url: https://institut-curie.org/
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Omics
+  - Circadian Biology
+  - Differential Analysis
+  - Python
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Development of an end-to-end pipeline for rhythmic analysis of omics data, combining
+modeling, statistical analysis, differential analysis, and enrichment workflows.
 
 <!--more-->
