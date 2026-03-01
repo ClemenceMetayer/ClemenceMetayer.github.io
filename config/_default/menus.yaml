@@ -19,6 +19,6 @@ main:
   - name: Conferences
     url: events/
     weight: 14
-  - name: Projects
-    url: projects/
-    weight: 30
+  # - name: Projects
+  #   url: projects/
+  #   weight: 30
