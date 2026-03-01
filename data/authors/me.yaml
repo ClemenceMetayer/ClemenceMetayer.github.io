@@ -51,13 +51,21 @@ news:
 
 experience:
   - role: PhD student in applied mathematics in cancer science
-    org: Curie Institute, INSERM, Inria
+    org: Curie Institute, INSERM, Inria, Paris, France
+    supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard
     start: 2022-10-01
     summary: |
-      Development and analysis of model-learning methods for automatic ODE discovery,
-      rhythmic omics data analysis pipelines, and cancer chronotherapy applications.
+      - → Development and study of model learning methods for automatically discovering EDOs systems from data
+      - → Estimation of EDOs model parameters
+      - → Development of a pipeline for rhythmic analysis of omics data (modeling, statistics, differential analysis, enrichment)
+      - → Acquisition of knowledge about cancer, the circadian clock, the immune system, and DNA damage repair
+      - → Introduction to experimental procedures (cell culture, synchronization, siRNA transfections, and cell collection)
+      - → Writing scientific articles (literature review, methodology paper, application paper)
+      - → Scientific monitoring
+
   - role: Mathematics tutor (MP, MPSI, PCSI preparatory classes)
     org: Ozanam Center, Lyon
+    supervision: Not specified
     start: 2022-03-01
     end: 2022-09-30
     summary: |
@@ -65,6 +73,7 @@ experience:
       and clarification of advanced mathematics concepts.
   - role: Research Intern in Biostatistics
     org: Inria SISTM, Bordeaux
+    supervision: Not specified
     start: 2021-04-01
     end: 2021-10-31
     summary: |
@@ -72,6 +81,7 @@ experience:
       statistical analyses/visualization, and manuscript writing.
   - role: Research Intern in Epidemiology
     org: Inria DRACULA, Lyon
+    supervision: Not specified
     start: 2020-05-01
     end: 2020-06-30
     summary: |
