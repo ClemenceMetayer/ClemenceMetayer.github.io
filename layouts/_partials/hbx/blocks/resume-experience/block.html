@@ -151,7 +151,12 @@
 
 {{ if gt (len $experience) 0 }}
 <div class="w-full">
-  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "experience" | default "Experience" }}</h2>
+  {{ $experience_title := i18n "experience" | default "Experience" }}
+  {{ with index $content "title" }}
+    {{ $t := strings.TrimSpace (printf "%v" .) }}
+    {{ if $t }}{{ $experience_title = $t }}{{ end }}
+  {{ end }}
+  <h2 class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ $experience_title }}</h2>
   
   {{/* Timeline container */}}
   <div class="relative">
@@ -195,7 +200,7 @@
                 {{ index $item "org" }}
               </p>
               {{ with index $item "supervision" }}
-              <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">
+              <p class="text-sm text-gray-600 dark:text-gray-400 mt-1 italic">
                 <span class="font-medium">Supervision:</span> {{ . }}
               </p>
               {{ end }}
