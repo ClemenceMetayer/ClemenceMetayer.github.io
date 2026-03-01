@@ -16,13 +16,16 @@ sections:
     design:
       date_format: 'January 2006'
       css_class: education-split-column
-  - block: resume-experience
+  - block: markdown
     content:
       title: Other training courses
-      username: me_education_other_training
-      show_education: false
-      use_education_fallback_icon: true
+      subtitle: ''
+      text: |-
+        - **Machine Learning Specialization** — 2025, Stanford University & DeepLearning.AI
+        - **International Course on Molecular and Mechanical Oscillations** — 2025, Curie Institute
+        - **Next Generation Sequencing & Cancer** — 2024, Canceropôle d'Île-de-France
+        - **Introduction to Bayesian Data Analysis** — 2023, openHPI
     design:
-      date_format: 'January 2006'
+      columns: '1'
       css_class: education-split-column
 ---

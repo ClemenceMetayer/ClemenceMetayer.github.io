@@ -1,0 +1,35 @@
+<style>
+  @media (min-width: 1280px) {
+    .page-body:has(> #section-resume-experience):has(> #section-resume-skills):has(> #section-resume-awards):has(> #section-resume-languages) {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+      column-gap: 2rem;
+      row-gap: 2rem;
+      align-items: start;
+    }
+
+    .page-body:has(> #section-resume-experience):has(> #section-resume-skills):has(> #section-resume-awards):has(> #section-resume-languages) > #section-resume-experience {
+      grid-column: 1;
+      grid-row: 1 / span 3;
+      margin: 0;
+    }
+
+    .page-body:has(> #section-resume-experience):has(> #section-resume-skills):has(> #section-resume-awards):has(> #section-resume-languages) > #section-resume-skills {
+      grid-column: 2;
+      grid-row: 1;
+      margin: 0;
+    }
+
+    .page-body:has(> #section-resume-experience):has(> #section-resume-skills):has(> #section-resume-awards):has(> #section-resume-languages) > #section-resume-awards {
+      grid-column: 2;
+      grid-row: 2;
+      margin: 0;
+    }
+
+    .page-body:has(> #section-resume-experience):has(> #section-resume-skills):has(> #section-resume-awards):has(> #section-resume-languages) > #section-resume-languages {
+      grid-column: 2;
+      grid-row: 3;
+      margin: 0;
+    }
+  }
+</style>
