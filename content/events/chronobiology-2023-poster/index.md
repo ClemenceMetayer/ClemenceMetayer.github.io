@@ -1,6 +1,7 @@
 ---
 title: "Learning dynamical models of interactions between the immune receptor NLRP3 and the circadian clock"
 date: '2023-10-01T10:00:00Z'
+draft: true
 
 event_name: 48th Congress of the Francophone Society of Chronobiology
 
@@ -35,6 +36,6 @@ image:
   caption: ''
   focal_point: Center
 
-projects:
-  - scikit
+# projects:
+#   - scikit
 ---

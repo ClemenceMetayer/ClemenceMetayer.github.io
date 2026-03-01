@@ -26,18 +26,18 @@
   <span class="article-metadata li-cite-author">{{ $authors_html | safeHTML }}</span>
   ({{- $year -}}).
   <a href="{{ $title_link }}" class="underline" {{ $title_target | safeHTMLAttr }}>{{ $item.Title }}</a>.
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}}.
-  {{ else if $item.Params.publication }}
+  {{ if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}}.
+  {{ else if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}}.
   {{ end }}
   {{ else }}
   <span class="article-metadata li-cite-author">{{ $authors_html | safeHTML }}.</span>
   <a href="{{ $title_link }}" {{ $title_target | safeHTMLAttr }}>{{ $item.Title }}</a>.
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}},
-  {{ else if $item.Params.publication }}
+  {{ if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
+  {{ else if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}},
   {{ end }}
   {{- $year -}}.
   {{ end }}

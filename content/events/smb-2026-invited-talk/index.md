@@ -1,6 +1,7 @@
 ---
 title: "Learning dynamical models of interactions between the NLRP3 immune receptor and the circadian clock"
 date: '2026-07-01T09:00:00Z'
+draft: true
 
 event_name: Society for Mathematical Biology Annual Meeting 2026
 event_url: https://www.smb.org/
@@ -38,6 +39,6 @@ image:
   caption: ''
   focal_point: Center
 
-projects:
-  - scikit
+# projects:
+#   - scikit
 ---
