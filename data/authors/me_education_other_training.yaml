@@ -5,7 +5,20 @@ name:
   display: Clémence Métayer
 
 experience:
-  - role: First Year Common to Health Studies
-    org: Angers University (France)
-    start: 2014-09-01
-    end: 2016-06-30
+  - role: Machine Learning Specialization
+    org: Stanford University & DeepLearning.AI
+    start: 2025
+    summary: |
+        Supervised machine learning, advanced learning algorithms, unsupervised learning, reinforcement learning.
+
+  - role: International Course on Molecular and Mechanical Oscillations
+    org: Curie Institute
+    start: 2025
+
+  - role: Next Generation Sequencing & Cancer
+    org : Canceropôle d'Île-de-France
+    start: 2024
+  
+  - role: Introduction to Bayesian Data Analysis
+    org : openHPI
+    start: 2023

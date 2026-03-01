@@ -10,7 +10,6 @@ experience:
     start: 2022-10-01
     summary: |
       Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
-      Focus: ODE system discovery, parameter estimation, rhythmic omics analysis, and applications to circadian-immune interactions in oncology.
 
   - role: Master's degree in Applied Mathematics and Statistics
     org: Claude Bernard Lyon 1 University (France)
@@ -21,3 +20,8 @@ experience:
     org: Claude Bernard Lyon 1 University (France)
     start: 2016-09-01
     end: 2019-06-30
+
+  - role: First Year Common to Health Studies (Medical school)
+    org: Angers University (France)
+    start: 2014-09-01
+    end: 2016-06-30
