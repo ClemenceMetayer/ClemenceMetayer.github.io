@@ -15,6 +15,7 @@ sections:
         - **July 2024** — **Society for Mathematical Biology Annual Meeting** (Séoul, Corée du Sud) — Contributed talk : *Learning dynamical models of interactions between the NLRP3 immune receptor and the circadian clock : optimizing lung cancer treatments.*
     design:
       columns: '1'
+      css_class: conferences-small-text
 
   - block: markdown
     content:
@@ -25,6 +26,7 @@ sections:
         - **July 2023** — **Society for Mathematical Biology Annual Meeting** (Columbus, Ohio, USA) — Poster : *Learning dynamical models of the interactions between the immune receptor NLRP3 and the circadian clock – application to lung cancer.*
     design:
       columns: '1'
+      css_class: conferences-small-text
 
   - block: markdown
     content:
@@ -38,6 +40,7 @@ sections:
         - **April 2023** — **Workshop ”Towards Personalized Cancer Chronotherapy”** (Chicago University, Paris center)
     design:
       columns: '1'
+      css_class: conferences-small-text
 
   - block: markdown
     content:
@@ -48,4 +51,5 @@ sections:
         - **October 2023** — **Fête de la Science** — Animation of a mathematical modelling session applied to the personalisation of cancer treatments.
     design:
       columns: '1'
+      css_class: conferences-small-text
 ---
