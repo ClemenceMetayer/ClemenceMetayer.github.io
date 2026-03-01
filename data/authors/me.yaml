@@ -94,34 +94,34 @@ experience:
       - → Writing a research article presenting the results
       - → Scientific monitoring
 
-skills:
-  - name: Programming
-    items:
-      - label: Python
-      - label: R
-      - label: MATLAB
-  - name: Visualization & Illustrations
-    items:
-      - label: Adobe Illustrator
-      - label: Inkscape
-  - name: Development
-    items:
-      - label: Git
-      - label: GitHub / GitLab
-      - label: Visual Studio Code
-      - label: Spyder
-      - label: RStudio
-      - label: Jupyter Notebook
-  - name: Scientific Writing
-    items:
-      - label: LaTeX
-      - label: Overleaf
-      - label: Microsoft Word
-      - label: Google Docs
-  - name: Operating Systems
-    items:
-      - label: macOS
-      - label: Windows
+# skills:
+#   - name: Programming
+#     items:
+#       - label: Python
+#       - label: R
+#       - label: MATLAB
+#   - name: Visualization & Illustrations
+#     items:
+#       - label: Adobe Illustrator
+#       - label: Inkscape
+#   - name: Development
+#     items:
+#       - label: Git
+#       - label: GitHub / GitLab
+#       - label: Visual Studio Code
+#       - label: Spyder
+#       - label: RStudio
+#       - label: Jupyter Notebook
+#   - name: Scientific Writing
+#     items:
+#       - label: LaTeX
+#       - label: Overleaf
+#       - label: Microsoft Word
+#       - label: Google Docs
+#   - name: Operating Systems
+#     items:
+#       - label: macOS
+#       - label: Windows
 
 languages:
   - name: French

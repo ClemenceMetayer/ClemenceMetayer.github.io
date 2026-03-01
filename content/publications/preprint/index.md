@@ -1,11 +1,11 @@
 ---
 title: "Modeling the Relationship Between Antibody-Dependent Enhancement and Disease Severity in Secondary Dengue Infection"
 authors:
-- me
 - Felipe de A. Camargo
 - Mostafa Adimy
-- Luis Esteva
-- C.P. Ferreira
+- Lourdes Esteva
+- me
+- Claudia P. Ferreira
 date: "2021-08-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
