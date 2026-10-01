@@ -19,9 +19,9 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "4th year PhD Student | Applied Mathematics in Cancer Science"
+    tagline: "PhD in Cancer Science | Applied Mathematics & Model Learning"
     # Site meta description for search engines and social sharing
-    description: "4th year PhD Student in Applied Mathematics for Cancer Science at Curie Institute, INSERM, and Inria, working on data-driven discovery of dynamical systems for circadian and oncology applications."
+    description: "PhD in Cancer Science and postdoctoral researcher in applied mathematics at Curie Institute, working on data-driven discovery of dynamical systems for circadian and oncology applications."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""              # Twitter/X handle for Twitter Cards (without @)

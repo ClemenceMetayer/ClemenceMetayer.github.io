@@ -11,10 +11,10 @@ name:
 postnominals: []
 status:
   icon: "🎓"
-role: 4th year PhD Student in Applied Mathematics for Cancer Science
+role: PhD in Cancer Science | Postdoctoral Researcher in Applied Mathematics for Cancer Science
 bio: |
-  I am a **PhD student in the Cancer Systems Pharmacology team of the U1331 Computational Oncoly research unit at Institut Curie**, funded by Inserm, Inria, and Institut Curie.
-  As a PhD student in applied mathematics for cancer biology, I develop and study **model learning methods** for discovering and identifying dynamic systems from experimental data.
+  I am a **postdoctoral researcher in the Cancer Systems Pharmacology team of the U1331 Computational Oncology research unit at Institut Curie**, where I completed my **PhD in Cancer Science** (PSL University, 2026).
+  Holding a PhD in Cancer Science with a background in applied mathematics, I develop and study **model learning methods** for discovering and identifying dynamic systems from experimental data.
   My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the **circadian clock, the immune system, and the optimization of cancer treatments**.
 
 affiliations:
@@ -46,14 +46,22 @@ interests:
   - Supervised and unsupervised machine learning
 
 news:
+  - "**PhD defended (17 September 2026):** Mechanistic Model Learning and Circadian Multi-Omics Analysis to Investigate the Interplay Between the Circadian Clock and the NLRP3 Receptor."
+  - "**Upcoming training:** Deep Learning Specialization by DeepLearning.AI (Coursera)."
   - "**Latest paper:** Métayer Clémence, Annabelle Ballesta, and Julien Martinelli. Data-driven discovery of digital twins in biomedical research. Briefings in Bioinformatics 27.1 (2026): bbaf722."
-  - "**Upcoming conference:** Society for Mathematical Biology 2026. Invited talk for a Mini-symposium. Graz, Austria (13 - 17 July)"
 
 experience:
+  - role: Postdoctoral researcher in applied mathematics in cancer science
+    org: Curie Institute, Paris, France
+    supervision: Dr. Annabelle Ballesta, Dr. Anne-Laure Huber, Dr. Samuel Bernard
+    start: 2026-10-01
+    end: 2026-12-31
+
   - role: PhD student in applied mathematics in cancer science
     org: Curie Institute, INSERM, Inria, Paris, France
     supervision: Dr. Annabelle Ballesta, Dr. Anne-Laure Huber, Dr. Samuel Bernard
     start: 2022-10-01
+    end: 2026-09-30
     summary: |
       - → Development and study of model learning methods for automatically discovering EDOs systems from data
       - → Estimation of EDOs model parameters

@@ -5,10 +5,13 @@ name:
   display: Clémence Métayer
 
 experience:
-  - role: PhD in Applied Mathematics for Cancer Science
-    org: Curie Institute, INSERM, Inria (Paris, France)
+  - role: PhD in Cancer Science
+    org: PSL University, Curie Institute (Paris, France)
     start: 2022-10-01
+    end: 2026-09-30
     summary: |
+      Thesis: *Mechanistic Model Learning and Circadian Multi-Omics Analysis to Investigate the Interplay Between the Circadian Clock and the NLRP3 Receptor*
+
       Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
 
   - role: Master's degree in Applied Mathematics and Statistics
