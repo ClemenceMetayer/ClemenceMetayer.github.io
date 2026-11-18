@@ -15,11 +15,11 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |-
-        I am a **postdoctoral researcher in the Cancer Systems Pharmacology team of the U1331 Computational Oncology research unit at Institut Curie**, where I completed my **PhD in Cancer Science** (PSL University, 2026).
+        I am a **research engineer in applied mathematics in the Cancer Systems Pharmacology team of the U1331 Computational Oncology research unit at Institut Curie**, where I completed my **PhD in Cancer Science** (PSL University, 2026).
 
         Holding a PhD in Cancer Science with a background in applied mathematics, I develop and study **model learning methods** for discovering and identifying dynamic systems from experimental data.
 
-        My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the **circadian clock, the immune system, and the optimization of cancer treatments**.
+        My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the **circadian rhythm, the immune system, and the optimization of cancer treatments**.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV (ENG)

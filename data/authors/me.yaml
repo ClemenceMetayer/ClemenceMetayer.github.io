@@ -11,11 +11,11 @@ name:
 postnominals: []
 status:
   icon: "🎓"
-role: PhD in Cancer Science | Postdoctoral Researcher in Applied Mathematics for Cancer Science
+role: PhD in Cancer Science | Applied Mathematics & Model Learning
 bio: |
-  I am a **postdoctoral researcher in the Cancer Systems Pharmacology team of the U1331 Computational Oncology research unit at Institut Curie**, where I completed my **PhD in Cancer Science** (PSL University, 2026).
+  I am a **research engineer in applied mathematics in the Cancer Systems Pharmacology team of the U1331 Computational Oncology research unit at Institut Curie**, where I completed my **PhD in Cancer Science** (PSL University, 2026).
   Holding a PhD in Cancer Science with a background in applied mathematics, I develop and study **model learning methods** for discovering and identifying dynamic systems from experimental data.
-  My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the **circadian clock, the immune system, and the optimization of cancer treatments**.
+  My work focuses in particular on the circadian analysis of omics data and the inference of parsimonious differential models, with applications to the **circadian rhythm, the immune system, and the optimization of cancer treatments**.
 
 affiliations:
   - name: Curie Institute
@@ -46,12 +46,14 @@ interests:
   - Supervised and unsupervised machine learning
 
 news:
+  - "**Upcoming talk (1 December 2026):** *Discovering Dynamical Digital Twins from Time Series through Bayesian Sparse Regression* at the [PYXIS Workshop: Hybrid Modeling, Mechanistic AI and Data-Driven Methods for Complex Systems](https://pyxis2026.sciencesconf.org/program?lang=en) (Jouy-en-Josas, France)."
+  - "**Poster & travel grant (October 2026):** 49th Congress of the Société Francophone de Chronobiologie (Strasbourg, France)."
   - "**PhD defended (17 September 2026):** Mechanistic Model Learning and Circadian Multi-Omics Analysis to Investigate the Interplay Between the Circadian Clock and the NLRP3 Receptor."
   - "**Upcoming training:** Deep Learning Specialization by DeepLearning.AI (Coursera)."
   - "**Latest paper:** Métayer Clémence, Annabelle Ballesta, and Julien Martinelli. Data-driven discovery of digital twins in biomedical research. Briefings in Bioinformatics 27.1 (2026): bbaf722."
 
 experience:
-  - role: Postdoctoral researcher in applied mathematics in cancer science
+  - role: Research engineer in applied mathematics in cancer science
     org: Curie Institute, Paris, France
     supervision: Dr. Annabelle Ballesta, Dr. Anne-Laure Huber, Dr. Samuel Bernard
     start: 2026-10-01
@@ -86,6 +88,7 @@ experience:
     end: 2021-10-31
     summary: |
       - → Systematic literature review and meta-analysis of data from several studies
+      - → Implementation of analyses and visualizations
       - → Acquisition of knowledge about chronic respiratory diseases, the respiratory microbiota, and the different types of diversity within this microbiota
       - → Writing a research article presenting the results
       - → Scientific monitoring
@@ -140,9 +143,9 @@ languages:
     label: Professional
 
 awards:
-  - title: Society for Mathematical Biology Travel Grant
-    awarder: Workshop on Mathematical Perspectives on Immunobiology (Blagoevgrad, Bulgaria)
-    date: "2023-07"
   - title: Société Francophone de Chronobiologie Travel Grant
     awarder: 49th congress of the Société Francophone de Chronobiologie (Strasbourg, France)
     date: "2026-10"
+  - title: Society for Mathematical Biology Travel Grant
+    awarder: Workshop on Mathematical Perspectives on Immunobiology (Blagoevgrad, Bulgaria)
+    date: "2023-07"

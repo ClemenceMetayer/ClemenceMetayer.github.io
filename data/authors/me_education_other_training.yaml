@@ -5,6 +5,10 @@ name:
   display: Clémence Métayer
 
 experience:
+  - role: Deep Learning Specialization
+    org: DeepLearning.AI
+    start: 2026
+
   - role: Machine Learning Specialization
     org: Stanford University & DeepLearning.AI
     start: 2025

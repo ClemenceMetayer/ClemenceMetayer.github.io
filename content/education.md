@@ -20,7 +20,8 @@ sections:
     content:
       title: Other training courses
       text: |-
-        - **Machine Learning Specialization** — 2025, Stanford University & DeepLearning.AI
+        - **Deep Learning Specialization** — 2026, DeepLearning.AI
+        - **Machine Learning Specialization** (supervised machine learning, advanced learning algorithms, unsupervised learning, reinforcement learning) — 2025, Stanford University & DeepLearning.AI
         - **International Course on Molecular and Mechanical Oscillations** — 2025, Curie Institute
         - **Next Generation Sequencing & Cancer** — 2024, Canceropôle d'Île-de-France
         - **Introduction to Bayesian Data Analysis** — 2023, openHPI
