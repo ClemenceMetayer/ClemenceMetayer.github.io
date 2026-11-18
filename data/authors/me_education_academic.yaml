@@ -14,10 +14,12 @@ experience:
 
       Supervision: Annabelle Ballesta, Anne-Laure Huber, Samuel Bernard.
 
-  - role: Master's degree in Applied Mathematics and Statistics, major in Biology and Medicine
+  - role: Master's degree in Applied Mathematics and Statistics
     org: Claude Bernard Lyon 1 University (France)
     start: 2019-09-01
     end: 2021-06-30
+    summary: |
+      Major in Biology and Medicine
 
   - role: Bachelor's degree in General Mathematics and Applications
     org: Claude Bernard Lyon 1 University (France)
