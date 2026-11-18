@@ -11,7 +11,7 @@ sections:
     content:
       title: Oral presentations
       text: |-
-        - **December 2026** — **[PYXIS Workshop: Hybrid Modeling, Mechanistic AI and Data-Driven Methods for Complex Systems](https://pyxis2026.sciencesconf.org/program?lang=en)** (Jouy-en-Josas, France) — Short talk : *Discovering Dynamical Digital Twins from Time Series through Bayesian Sparse Regression.*
+        - **December 2026** — **PYXIS Workshop: Hybrid Modeling, Mechanistic AI and Data-Driven Methods for Complex Systems** (Jouy-en-Josas, France) — Short talk : *Discovering Dynamical Digital Twins from Time Series through Bayesian Sparse Regression.*
         - **July 2026** — **Society for Mathematical Biology Annual Meeting** (Graz, Austria) — Mini-symposium talk (invited): *Learning dynamical models of interactions between the NLRP3 immune receptor and the circadian clock : optimizing lung cancer treatments.*
         - **July 2024** — **Society for Mathematical Biology Annual Meeting** (Seoul, South Korea) — Contributed talk : *Learning dynamical models of interactions between the NLRP3 immune receptor and the circadian clock : optimizing lung cancer treatments.*
     design:
